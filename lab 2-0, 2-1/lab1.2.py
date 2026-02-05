@@ -1,0 +1,8 @@
+print("Введите последовательноть ДНК и РНК (U записывать как G) на английском с заглавной буквы")
+name = input()
+print("Количетсво нуклеотидов A :", name.count("A"))
+print("Количетсво нуклеотидов T :", name.count("T"))
+print("Количетсво нуклеотидов G :", name.count("G"))
+print("Количетсво нуклеотидов C :", name.count("C"))
+c = name.count("A") + name.count("C") + name.count("G") + name.count("T")
+print(f"Общее длина: {c} нуклеотидов")
