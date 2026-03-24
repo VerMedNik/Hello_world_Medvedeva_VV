@@ -1,8 +1,0 @@
-#!/bin/bash
-
-WEIGHT=read -p "Введите ваш вес (в кг): "  
-HEIGHT=read -p "Введите ваш рост (в метрах): "
-
-BMI=$((WEIGHT\(HEIGHT*HEIGHT)))
-
-echo "Итоговое значение: $BMI"
