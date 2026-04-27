@@ -1,0 +1,11 @@
+SELECT * FROM students;
+select first_name from students; 
+SELECT DISTINCT email FROM students;
+SELECT * FROM students order by first_name asc;
+SELECT * FROM students order by first_name desc;
+SELECT * FROM students limit 10;
+SELECT * FROM students limit 10 offset 10;
+SELECT * FROM students order by RANDOM() limit 5;
+SELECT * FROM students order by last_name asc;
+SELECT * FROM students order by first_name asc;
+SELECT * from students order by last_name asc;

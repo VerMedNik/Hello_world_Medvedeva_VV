@@ -1,0 +1,1 @@
+SELECT COUNT(postavchik) FROM suppliers GROUP BY product_id;

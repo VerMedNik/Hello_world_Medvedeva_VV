@@ -1,0 +1,1 @@
+SELECT DISTINCT course_name FROM courses;
