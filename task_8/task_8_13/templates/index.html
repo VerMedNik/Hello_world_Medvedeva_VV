@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализ учебной БД</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Анализ учебной БД</h1>
+    </header>
+
+    <main>
+        <aside>
+            <button class="sidebar-btn" data-action="average">Среднее значение</button>
+            <button class="sidebar-btn" data-action="median">Медиана</button>
+            <button class="sidebar-btn" data-action="count">Количество записей</button>
+            <button class="sidebar-btn" data-action="bar-chart">Столбчатая диаграмма</button>
+            <button class="sidebar-btn" data-action="pie-chart">Круговая диаграмма</button>
+            <button class="sidebar-btn" id="clear-btn">Очистить</button>
+        </aside>
+
+        <section id="content">
+            <div id="stats-output"></div>
+            <canvas id="chart-canvas"></canvas>
+            <div id="status-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Аналитический дашборд. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-8-11-3</title>
+    <meta name="description" content="Задание номер 11 в теме 8">
+    <meta name="author" content="Nika Bear">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <style>
+        /* пум-пум */
+
+        /*
+        пум-
+        пум-
+        пум
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* пум-пум-пум-пум — в конце строки */
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            line-height: 1.5;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-weight: 600;
+        }
+
+        .card {
+            padding: 20px 25px 30px 15px; /* шорткат padding: 4 значения */
+            background-color: #ffffff;
+            border: 2px solid #3498db; /* шорткат border */
+            border-radius: 8px;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card.product {
+            background-color: #ecf0f1;
+        }
+
+        .btn {
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+
+        .btn.btn-primary {
+            background-color: #e74c3c; /* цвет в HEX */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        .price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .description {
+            color: #555;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card product">
+        <h2>Название товара</h2>
+        <p class="description">Опсиание товара</p>
+        <p class="price">99999 ₽</p>
+        <button class="btn btn-primary">Отдать почку</button>
+    </div>
+</body>
+</html>
